@@ -12,8 +12,8 @@ func main(){
 }
 
 func count(r io.Reader) int {
-	// I guess io.Reader takes input in general
-	// but to read it (linewise) you need another step
+	// io.Reader = anything you can read from
+	// bufio Scanner = read text
 	scanner := bufio.NewScanner(r)
 	scanner.Split(bufio.ScanWords)
 	wc := 0
