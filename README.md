@@ -1,0 +1,1 @@
+working through chapter 1 of Pragmatic Programmers book on Golang CLIs -> https://blog.golang.org/using-go-modules
